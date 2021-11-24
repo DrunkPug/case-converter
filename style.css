@@ -1,0 +1,51 @@
+body{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    margin: 30px auto;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: center;
+    height: 20%;
+    background-color: #EB6AA4;
+    padding-top: 40px;
+}
+
+.flex-case {
+    display: flex;
+    flex-direction: row;
+    background-color: #EB6AA4;
+    height: 80%;
+}
+#text {
+    width: 70%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: 4px solid #5A9800;
+}
+
+.flex-case-buttons{
+    flex-direction: column;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px 20px;
+    width: 80%;
+    height: 14%;
+    background-color:  #AAF53D;
+    border: 4px solid #5A9800;
+    border-radius: 4px;
+}
